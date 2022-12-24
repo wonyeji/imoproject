@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import './routes/root.css'
 import Root from "./routes/root";
 import Login from "./routes/login";
 import Register from "./routes/register";
