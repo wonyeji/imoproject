@@ -10,16 +10,16 @@ export default function Root() {
                     IMO
                 </h1>
 
-                <div className="text-sm md:text-1xl lg:text-2xl px-4 md:py-4 md:px-10 lg:py-6 
+                <div className="text-sm md:text-1xl lg:text-2xl px-4 md:py-4 md:px-10 lg:py-3 
                 lg:px-12 w-fit mx-auto mb-2">
                     Your one stop destination to find the best eateries in the world.
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center mb-2">
-                    <a href="./Login" className="bg-white bg-opacity-30 rounded-full w-fit mx-auto rounded-full md:text-3xl lg:text-4xl py-4 px-6 md:px-10 lg:py-6 lg:px-12 cursor-pointer hover:opacity-75 duration-150">JOIN US TODAY</a>
+                    <a href="./Login" className="font-bold bg-white bg-opacity-40 rounded-full w-fit mx-auto rounded-full text-base md:text-1xl lg:text-2xl py-4 px-6 md:px-8 lg:py-4 lg:px-10 cursor-pointer hover:opacity-75 duration-150">SIGN UP NOW</a>
                 </div>
 
-                <div className="opacity-85 italic">
+                <div className="italic">
                     By signing up, you agree with IMO's <a href="#" className="hover:opacity-80 duration-150">Terms of Service</a> and <a href="#" className="hover:opacity-80 duration-150">Privacy Policy</a>.
                 </div>
 
