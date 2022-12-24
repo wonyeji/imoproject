@@ -1,7 +1,9 @@
 export default function Root() {
     return (
-        <div id="landingPage">
-            This is the landing page.
+        <div className="min-h-screen flex flex-col text-white">
+            <h1>
+                This is the landing page.
+            </h1>
         </div>
     );
   }
